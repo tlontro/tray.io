@@ -1,0 +1,25 @@
+{
+  "name": "tray_take_home_exercise",
+  "version": "1.0.0",
+  "description": "A Sample Framework for the take home exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js",
+    "linter": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "Tiago Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.22",
+    "@wdio/local-runner": "^6.1.22",
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chai": "^4.2.0",
+    "chromedriver": "^83.0.0",
+    "eslint": "^7.3.1",
+    "eslint-config-google": "^0.14.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
