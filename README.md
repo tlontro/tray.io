@@ -61,4 +61,7 @@ go to the root of the project and type:
 
 Runnable Options:
 `npm run linter`
+
 `npm run test`
+
+![](tray.gif)
